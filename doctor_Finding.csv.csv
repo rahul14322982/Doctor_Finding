@@ -1,0 +1,51 @@
+doctor_name,specialization,symptoms,opening_time,closing_time,address,phone_number
+Dr. Deepa 1,Cardiologist,"Heart problem,BP",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9840985000
+Dr. Mahesh 2,Cardiologist,"Chest pain,Heart problem",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9254775099
+Dr. Arun 3,General Physician,"Fever,Cold",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9154517015
+Dr. Suresh 4,Pediatrician,"Cold,Child fever",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9084845671
+Dr. Prakash 5,Dermatologist,"Rash,Allergy",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9326093835
+Dr. Anitha 6,Orthopedic,"Back pain,Joint pain",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9815097406
+Dr. Ravi 7,Dermatologist,"Allergy,Rash",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9381194616
+Dr. Prakash 8,ENT,"Throat pain,Cold",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9112327596
+Dr. Deepa 9,Orthopedic,"Joint pain,Back pain",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9863080540
+Dr. Deepa 10,Pediatrician,"Cold,Cough",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9622446625
+Dr. Kavya 11,ENT,"Cold,Throat pain",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9301398574
+Dr. Sneha 12,General Physician,"Cough,Fever",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9615936440
+Dr. Mahesh 13,Pediatrician,"Child fever,Cough",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9849132099
+Dr. Sneha 14,ENT,"Throat pain,Cold",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9212674262
+Dr. Anitha 15,Orthopedic,"Back pain,Joint pain",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9550438426
+Dr. Kavya 16,Orthopedic,"Bone pain,Joint pain",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9543918650
+Dr. Anitha 17,Pediatrician,"Cough,Cold",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9259737954
+Dr. Arun 18,Cardiologist,"Chest pain,BP",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9269020492
+Dr. Deepa 19,Dermatologist,"Rash,Allergy",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9987260354
+Dr. Anitha 20,Dermatologist,"Skin problem,Rash",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9621779464
+Dr. Anitha 21,ENT,"Throat pain,Cold",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9334472205
+Dr. Ramesh 22,Orthopedic,"Back pain,Bone pain",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9031918975
+Dr. Ramesh 23,Dermatologist,"Skin problem,Allergy",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9078801306
+Dr. Sneha 24,Cardiologist,"Chest pain,Heart problem",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9580574423
+Dr. Suresh 25,Orthopedic,"Joint pain,Back pain",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9044714273
+Dr. Ravi 26,General Physician,"Body pain,Cough",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9950807894
+Dr. Kavya 27,Pediatrician,"Cough,Child fever",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9812720066
+Dr. Kavya 28,Orthopedic,"Back pain,Bone pain",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9303960676
+Dr. Arun 29,Pediatrician,"Cough,Cold",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9251529159
+Dr. Deepa 30,General Physician,"Body pain,Cold",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9109782400
+Dr. Sneha 31,General Physician,"Body pain,Cough",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9370690496
+Dr. Mahesh 32,General Physician,"Body pain,Cold",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9999123895
+Dr. Ravi 33,Dermatologist,"Rash,Skin problem",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9572064578
+Dr. Ramesh 34,Cardiologist,"BP,Heart problem",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9093732221
+Dr. Prakash 35,Orthopedic,"Joint pain,Back pain",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9301291524
+Dr. Arun 36,Pediatrician,"Cold,Child fever",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9657096714
+Dr. Kavya 37,Orthopedic,"Back pain,Joint pain",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9392596109
+Dr. Suresh 38,ENT,"Ear pain,Cold",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9547556398
+Dr. Ravi 39,Dermatologist,"Allergy,Rash",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9011467354
+Dr. Prakash 40,General Physician,"Cold,Body pain",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9856995724
+Dr. Mahesh 41,Orthopedic,"Bone pain,Back pain",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9162929825
+Dr. Suresh 42,Cardiologist,"Heart problem,Chest pain",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9090783142
+Dr. Prakash 43,General Physician,"Cough,Body pain",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9032005800
+Dr. Sneha 44,Dermatologist,"Allergy,Rash",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9406610887
+Dr. Ramesh 45,Orthopedic,"Back pain,Bone pain",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9846021660
+Dr. Suresh 46,Pediatrician,"Cough,Cold",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9766874164
+Dr. Ramesh 47,Dermatologist,"Skin problem,Rash",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9714442626
+Dr. Sneha 48,ENT,"Ear pain,Throat pain",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9364029779
+Dr. Mahesh 49,General Physician,"Body pain,Fever",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9898727502
+Dr. Kavya 50,Orthopedic,"Bone pain,Joint pain",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9395724155
