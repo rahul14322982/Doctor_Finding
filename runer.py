@@ -1,19 +1,31 @@
 import requests
+from flask import Flask, request, jsonify, render_template
 
-url = "https://doctor-finding.onrender.com/predict"
+app = Flask(__name__)
 
-data = {
-    "symptoms": symptoms,   # value you already get from HTML
-    "address": address
-}
+@app.route("/")
+def home():
+    return render_template("index.html")
 
-headers = {
-    "Content-Type": "application/json",
-    "User-Agent": "Mozilla/5.0"
-}
 
-response = requests.post(url, json=data, headers=headers)
+@app.route("/get-doctor", methods=["POST"])
+def get_doctor():
+    data = request.json   # data coming from HTML
 
-# get output
-status_code = response.status_code
-result_text = response.text
+    url = "https://doctor-finding.onrender.com/predict"
+
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0"
+    }
+
+    response = requests.post(url, json=data, headers=headers)
+
+    return jsonify({
+        "status": response.status_code,
+        "result": response.text
+    })
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
