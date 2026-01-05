@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="symptoms" placeholder="Symptoms">
+    <input id="address" placeholder="Address">
+    <button onclick="send()">Find Doctor</button>
+
+    <pre id="out"></pre>
+
+<script>
+function send() {
+    fetch("/get-doctor", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            symptoms: document.getElementById("symptoms").value,
+            address: document.getElementById("address").value
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        document.getElementById("out").textContent = JSON.stringify(data, null, 2);
+    });
+}
+</script>
+</body>
+</html>
