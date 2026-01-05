@@ -1,11 +1,19 @@
 import requests
 
-url = "http://127.0.0.1:5000/predict"
+url = "https://doctor-finding.onrender.com/predict"
 
 data = {
-    "symptoms": "Heart problem,BP",
-    "address": "Harihar, Karnataka"
+    "symptoms": symptoms,   # value you already get from HTML
+    "address": address
 }
 
-response = requests.post(url, json=data)
-print(response.json())
+headers = {
+    "Content-Type": "application/json",
+    "User-Agent": "Mozilla/5.0"
+}
+
+response = requests.post(url, json=data, headers=headers)
+
+# get output
+status_code = response.status_code
+result_text = response.text
