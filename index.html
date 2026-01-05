@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Doctor Finder</title>
+</head>
 <body>
-    <input id="symptoms" placeholder="Symptoms">
-    <input id="address" placeholder="Address">
-    <button onclick="send(runner.py)">Find Doctor</button>
 
-    <pre id="runner.py"></pre>
+<h2>Doctor Recommendation</h2>
+
+<input id="symptoms" placeholder="Enter symptoms"><br><br>
+<input id="address" placeholder="Enter address"><br><br>
+
+<button onclick="send()">Find Doctor</button>
+
+<h3>Result:</h3>
+<pre id="output"></pre>
 
 <script>
 function send() {
@@ -21,9 +29,14 @@ function send() {
     })
     .then(res => res.json())
     .then(data => {
-        document.getElementById("runner.py").textContent = JSON.stringify(data, null, 2);
+        document.getElementById("output").innerText =
+            "Status: " + data.status + "\n\n" + data.result;
+    })
+    .catch(err => {
+        document.getElementById("output").innerText = "Error: " + err;
     });
 }
 </script>
+
 </body>
 </html>
