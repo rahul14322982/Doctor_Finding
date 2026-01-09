@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 import joblib
+from flask_cors import CORS   # ✅ ADDED
 
 app = Flask(__name__)
+CORS(app)                     # ✅ ADDED
 
 # Load trained model
 model = joblib.load("doctor_model.pkl")
@@ -57,9 +59,9 @@ def predict_doctor():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+
 import os
 
 if __name__ == "__main__":
-     port = int(os.environ.get("PORT", 1000))
-     app.run(host="0.0.0.0", port=port)
-
+    port = int(os.environ.get("PORT", 1000))
+    app.run(host="0.0.0.0", port=port)
