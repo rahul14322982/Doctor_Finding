@@ -17,7 +17,7 @@
 
 <script>
 function send() {
-    fetch("/get-doctor", {
+    fetch("https://doctor-finding.onrender.com/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -30,7 +30,7 @@ function send() {
     .then(res => res.json())
     .then(data => {
         document.getElementById("output").innerText =
-            "Status: " + data.status + "\n\n" + data.result;
+            JSON.stringify(data, null, 2);
     })
     .catch(err => {
         document.getElementById("output").innerText = "Error: " + err;
