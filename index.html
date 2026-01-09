@@ -12,11 +12,13 @@
 
 <button onclick="send()">Find Doctor</button>
 
-<h3>Result:</h3>
-<pre id="output"></pre>
+<h3>Doctors Found:</h3>
+<div id="output"></div>
 
 <script>
 function send() {
+    document.getElementById("output").innerHTML = "Loading...";
+
     fetch("https://doctor-finding.onrender.com/predict", {
         method: "POST",
         headers: {
@@ -29,8 +31,24 @@ function send() {
     })
     .then(res => res.json())
     .then(data => {
-        document.getElementById("output").innerText =
-            JSON.stringify(data, null, 2);
+        let doctors = data.doctors;
+        let html = "";
+
+        if (!doctors || doctors.length === 0) {
+            html = "No doctors found.";
+        } else {
+            doctors.forEach((doc, index) => {
+                html += `
+                    <div style="border:1px solid #ccc; padding:10px; margin:10px 0;">
+                        <b>${index + 1}. ${doc.doctor_name}</b><br>
+                        ⏰ ${doc.opening_time} - ${doc.closing_time}<br>
+                        📞 ${doc.phone_number}
+                    </div>
+                `;
+            });
+        }
+
+        document.getElementById("output").innerHTML = html;
     })
     .catch(err => {
         document.getElementById("output").innerText = "Error: " + err;
