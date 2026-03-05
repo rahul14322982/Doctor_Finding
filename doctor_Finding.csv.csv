@@ -1,7 +1,7 @@
 doctor_name,specialization,symptoms,opening_time,closing_time,address,phone_number
 Dr. Deepa 1,Cardiologist,"Heart problem,BP",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9840985000
 Dr. Mahesh 2,Cardiologist,"Chest pain,Heart problem",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9254775099
-Dr. Arun 3,General Physician,"Fever,Cold",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9154517015
+Dr. Arun 3,General Physician,"Fever,Cold",09:00:00 AM,05:00:00 PM,"Harihar, Karnataka",9154517015
 Dr. Suresh 4,Pediatrician,"Cold,Child fever",09:00:00 AM,05:00:00 PM,"Ranebennur, Karnataka",9084845671
 Dr. Prakash 5,Dermatologist,"Rash,Allergy",09:00:00 AM,05:00:00 PM,"Haveri, Karnataka",9326093835
 Dr. Anitha 6,Orthopedic,"Back pain,Joint pain",09:00:00 AM,05:00:00 PM,"Davanagere, Karnataka",9815097406
